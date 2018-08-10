@@ -1,0 +1,353 @@
+body{
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgba(242, 242, 242, 0.9);
+    font-family: 'IBM Plex Sans', sans-serif;
+    /* Maybe Helvetica for font? Helvetica isn't free, so I'm using IBM Plex Sans */
+}
+
+/* ======= Nav Bar ======= */
+
+.navbar{
+    height: 75px;
+    width: 100%;
+    /*background-color: rgb(230, 230, 230);*/
+    background-color: rgb(3, 25, 99);
+    position: fixed;
+    top: 0;
+    /*border-bottom: 1.4px solid rgb(102, 102, 102);*/
+}
+
+.logo{
+    display: inline-block;
+    height: 50;
+}
+
+.title {
+    margin-left: 22px;
+    /*color: rgb(102, 102, 102);*/
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    /* Let's go for larger font and thinner. Maybe not black text */
+}
+
+.title a{
+    text-decoration: none;
+    /*color: rgb(102, 102, 102);*/
+}
+
+.title:hover{
+    /*text-decoration: underline rgb(255, 255, 255);*/
+    border-bottom: 3px solid rgb(255, 255, 255);
+    transition: all 0.25s ease-out;
+}
+
+.nav-list{
+    float: right;
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+.nav-item{
+    float: left;
+    margin: 10px 20px 10px 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav-item:hover{
+    /*text-decoration: underline rgb(255, 255, 255);*/
+    border-bottom: 2px solid rgb(255, 255, 255);
+    transition: all 0.25s ease-out;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* ======= Index Banner Text ======= */
+
+.banner-text{
+    margin-top: 140px;
+    height: 170px;
+    text-align: center;
+    color: rgb(3, 25, 99);
+    /*color: rgb(102, 102, 102);*/
+}
+
+.statement{
+    padding: 16px;
+    font-size: 22px
+}
+
+/* ======= Index Page Options ======= */
+
+.container{
+    margin-top: 10px;
+    margin-bottom: 85px;
+}
+
+.button{
+    border: 2.5px solid rgb(3, 25, 99);
+    color: rgb(3, 25, 99);
+    height: 200px;
+    width: 28%;
+    display: inline-block;
+    margin-left: 3.65%;
+    border-radius: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.button:hover{
+    box-shadow: 3px 3px 1px ;
+    transition: all 0.25s ease-out;
+}
+
+.button-text{
+    margin-top: 61px;
+}
+
+/* ======= Footer ======= */
+
+.footer{
+    height: 95px;
+    width: 100%;
+    background-color: rgb(3, 25, 99);
+    color: rgb(255, 255, 255);
+    /*border-top: 1.4px solid rgb(102, 102, 102);*/
+}
+
+.foot{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.email-input{
+    font-style: italic;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.contact-button{
+    color: rgb(3, 25, 99);
+}
+
+.credit{
+    font-size: 14px;
+}
+
+.social-icons{
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.fab{
+    margin-left: 25px;
+}
+
+/* ======= LeanStart Body Text ======= */
+
+.lean-video{
+    margin: 0 auto;
+    margin-top: 105px;
+    text-align: center;
+    width: 75%;
+    height: 380px;
+}
+
+.lean-container{
+    height: 535px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(3, 25, 99);
+}
+
+.lean{
+    display: inline-block;
+    height: 90%;
+    width: 45%;
+    margin-top: 25.75px;
+    overflow: hidden;
+}
+
+.top-quote{
+    margin-top: 40px;
+}
+
+.lean-quote{
+    text-align: justify;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.lean-author{
+   display: inline-block; 
+   margin-top: 0px;
+   font-weight: bold;
+}
+
+.lean-description{
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+.lean-image{
+    margin-left: 15px;
+}
+
+.book-cover{
+    width: 370px;
+}
+
+.button-intro{
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+.amazon-button{
+    background-color: rgb(3, 25, 99);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.amazon-button:hover{
+    cursor: pointer;
+    box-shadow: 1.5px 1.5px 0px rgb(3, 25, 99);
+    transition: all 0.25s ease-out;
+}
+
+/* ======= Glossary Body Text ======= */
+
+.glossary-header{
+    height: 100px;
+    width: 100%;
+    margin-top: 115px;
+    color: rgb(3, 25, 99);
+    text-align: center;
+    font-size: 26px;
+    text-decoration: underline;
+}
+
+.glossary-content{
+    height: 394px;
+    width: 100%;
+    color: rgb(3, 25, 99);
+    text-align: center;
+    /*border: 1px solid black;*/
+}
+
+.glossary-column{
+    display: inline-block;
+    height: 100%;
+    width: 45%;
+    overflow: hidden;
+    line-height: 26px;
+    /*border: 1px dashed gray;*/
+}
+
+.glossary-vocab{
+    text-align: right;
+    /*font-size: 18px;*/
+}
+
+.vocab-list{
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.vocab-item{
+    display: inline-block;
+    height: 28px;
+    width: 100%;
+}
+
+.glossary-definition{
+    text-align: left;
+    /*font-size: 12px;*/
+}
+
+.definition-list{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.definition-item{
+    display: inline-block;
+    height: 26px;
+    width: 100%;
+    font-size: 12px;
+}
+
+/* ======= Building Body Text ======= */
+
+.building-container{
+    margin-top: 115px;
+    margin-bottom: 100px;
+    height: 110px;
+    width: 100%;
+    color: rgb(3, 25, 99);
+    text-align: center;
+}
+
+/* ======= Launching Body ======= */
+
+.launching-container{
+    margin-top: 115px;
+    margin-bottom: 70px;
+    height: 450px;
+    width: 100%;
+    color: rgb(3, 25, 99);
+    text-align: center;
+}
+
+.end-title{
+    color: rgb(3, 25, 99);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* ======= Growing Body ======= */
+
+.growing-container{
+    margin-top: 115px;
+    margin-bottom: 70px;
+    height: 450px;
+    width: 100%;
+    color: rgb(3, 25, 99);
+    text-align: center;
+}
+
+.hypothesis{
+    height: 270px;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.value-hyp{
+    display: inline-block;
+    overflow: hidden;
+    height: 100%;
+    width: 45%;
+}
+
+.growth-hyp{
+    display: inline-block;
+    overflow: hidden;
+    height: 100%;
+    width: 45%;
+}
+
+.close-title{
+    color: rgb(3, 25, 99);
+    text-align: center;
+    margin-bottom: 40px;
+}
